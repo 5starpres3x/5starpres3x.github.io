@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(255, 196, 0);
+    color: rgb(254, 255, 255);
+    padding: 10px;
+    front-family: arial;
+}
+#all-contents{
+    max-width: 800px;
+    margin: auto;
+}
+/*navigation menu*/
+nav{
+    background:  rgb(rgb(239, 80, 41), rgb(255, 196, 0), rgb(255, 255, 255));
+   margin: 0 auto;
+   margin-bottom: 20px;
+   display: flex;
+   padding: 10px;       
+}
+h1{
+    display: flex;
+    align-items: center;
+    color: white;
+    flex: 1;
+    margin: 0;
+}
+#.nav-li{
+    list-style-image: none;
+}
+.nav-li{
+    display: inline-block;
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: #fff;                    
+}
+/*main container area beneath menu*/
+main{
+    background: rgb(red, green, blue);
+    display: flex;
+}
+.sidebar{
+    margin-right: 25px;
+    padding: 10px;
+}
+.sidebar-img{
+    width: 200px;
+}
+.content{
+    flex:1;
+    padding: 15px;
+}
+/* portfolio stlyes*/
+#interests{
+    border: 4px silver ridges;
+    padding: 8px;
+}
+h2, h3{
+    margin: 0px;
+}
