@@ -30,7 +30,7 @@ var circles = [];
     circles.push(circle);
        }
         // TODO 3 / 7 : Call the drawCircle() function 
-       for(var i =0; i < = 100; i++){
+       for(var i = 0; i <= 100; i++){
         drawCircle();
        }
         
@@ -54,8 +54,8 @@ var circles = [];
 
 
             // TODO 9 : Iterate over the array
-           for (var i =0; i < circles.length; i++){
-            physikz..updatePostion(circles[i]);
+           for (var i = 0; i < circles.length; i++){
+            physikz.updatePostion(circles[i]);
            game.checkCirclesPostion(circle[i]); 
            }
             
